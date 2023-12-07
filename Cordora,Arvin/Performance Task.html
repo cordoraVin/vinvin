@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>Crecencia Page </title>
+<style>
+.topnav {
+  background-color:#333;
+  overflow: hidden;
+  }
+  
+  .topnav a {
+   float:left;
+   color:#2778cf;
+   text-align:center
+   padding:14px 16px;
+   text-decoration:none;
+   font-size: 17px;
+  }
+  
+  .topnav a:hover {
+  background-color:#2778cf;
+  color:black;
+  }
+  
+  .topnav a.active {
+   background-color:#2778cf;
+   color:white;
+  }
+  .head1{
+  font-size: 40px;
+  color: #2778cf;
+  font-weight: bold;
+  text-align: center;
+  
+  }
+  .head2
+  font-size: 17px;
+  margin-left: 10px;
+  margin-bottom; 15px;
+  text-align: center;
+  
+  }
+  
+ </style>
+ 
+ <body>
+ <header>
+ <div class="head1">
+ Crecencia Drucila Lopez Senior High School
+ </div>
+ <div class="head2">
+ A stand-alone school in San Pablo City
+ </div>
+ </header>
+ <nav class="nav">
+ <div class="topnav">
+   <a class="active" href="#home">Home</a>
+   <a href="#course">Courses</a>
+   <a href="#faculty">Faculty</a>
+   <a href="about">About</a>
+ </div>
+ </nav>
+ <p id="datetd"></p>
+ <script>
+         setInterval(timer, 1000);
+		 function timer();
+		 const d =new Date();
+		 document.getElementByld('datetd').innerHTML ="Date:" + Date(); d.tolLocateTimeString();
